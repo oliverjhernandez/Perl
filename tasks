@@ -1,0 +1,19 @@
+
+
+# Perl Script to install amanda client
+
+1.- Change /etc/resolv.conf
+	.- Check nameservers already configured
+	.- Check if there's a search parameter
+	.- Skip comments
+	.- Test DNS
+2.- Install xinetd amanda amanda-client
+	.- Look for the best way to install a package
+	.- Check dependencies
+	.- 
+3.- Create /etc/xinetd.d/amanda file
+	.- Check if it's already there
+	.- If it is, change it accordingly.
+	.-
+4.- Edit /var/lib/amanda/.amandahosts
+	.- Add parameters as required
